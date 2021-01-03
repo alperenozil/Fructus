@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
-    // PROPERTIES
 
-    // BODY
 struct StartButtonView: View {
+    // PROPERTIES
+    @AppStorage("isOnboarding") var isOnboarding: Bool?
+    // BODY
     var body: some View {
         Button(action:{
                 print("quit from onboard")
