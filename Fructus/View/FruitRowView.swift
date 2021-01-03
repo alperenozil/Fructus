@@ -10,7 +10,7 @@ import SwiftUI
 struct FruitRowView: View {
     var fruit: Fruit
     var body: some View {
-        HStack {
+        HStack(spacing: 15) {
             Image(fruit.image).renderingMode(.original).resizable().scaledToFit().frame(width: 80, height: 80, alignment: .center)
                 .background(LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .top, endPoint: .bottom))
                 .cornerRadius(8)
