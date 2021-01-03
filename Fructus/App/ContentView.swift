@@ -14,9 +14,11 @@ struct ContentView: View {
             List{
                 ForEach(fruits) {item in
                     FruitRowView(fruit: item)
+                        .padding(.vertical, 8)
                 }
             }
-        }
+            .navigationTitle("Fruits")
+        }//endof NAVIGATION
     }
 }
 
