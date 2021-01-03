@@ -13,6 +13,7 @@ struct StartButtonView: View {
     // BODY
     var body: some View {
         Button(action:{
+                isOnboarding=false
                 print("quit from onboard")
                 }) {
             HStack(spacing:8) {
