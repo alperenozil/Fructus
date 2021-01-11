@@ -1,12 +1,4 @@
-//
-//  FruitCardView.swift
-//  Fructus
-//
-//  Created by Necdet Alperen Özil on 1.01.2021.
-//
-
 import SwiftUI
-
 struct FruitCardView: View {
     // PROPERTIES
     var fruit: Fruit
@@ -49,7 +41,6 @@ struct FruitCardView: View {
     }
 }
     // PREVIEW
-
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitCardView(fruit: fruitsData[1])
