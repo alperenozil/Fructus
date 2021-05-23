@@ -2,6 +2,6 @@
 
 SwiftUI app
 
-You can see the demo from https://streamable.com/glpk2n
+You can see the demonstration from https://streamable.com/glpk2n
 
 Thanks!
